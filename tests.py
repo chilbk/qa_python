@@ -172,3 +172,4 @@ class TestBooksCollector:
         collector.add_new_book('НеДжедайские техники')
         collector.add_book_in_favorites('НеДжедайские техники')
         assert collector.get_list_of_favorites_books() == ['НеДжедайские техники']
+
